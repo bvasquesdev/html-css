@@ -244,12 +244,20 @@ footer #footer-links {
         display: none;
     }
 
-    #form-container,
-    #form-box,
-    #register-container,
-    #get-app-container {
+    #form-container {
+        display: grid;
+        width: 100%;
         justify-content: center;
         align-items: center;
     }
 
+    footer {
+        width: 90%;
+    }
+
+    #footer-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
 }
